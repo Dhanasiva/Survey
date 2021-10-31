@@ -1,32 +1,35 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div id="info">
-     <h1 id="title">amazon<span>Prime</span></h1>
-     <h3 id="discription">Thank you prime users! Tell us more</h3>
-     <form id="info-form">
-     <div class="form-inside">
-        <div class="margin">
-            <label for"name" id="name-label">Name</label><br/>
+<div id="info">
+  <h1 id="title">amazon<span>Prime</span></h1>
+  
+  <h3 id="discription">Thank you prime users! Tell us more</h3>
+  <form id="info-form">
+
+    <div class="form-inside">
+      <div class="margin">
+          <label for"name" id="name-label">Name</label><br/>
           <input type="text" placeholder="enter name" id="name" required><br/>
-        </div>
-        <div class="margin1">
-            <label id="email-label">Email</label><br/>
-            <input type="email" placeholder="enter Email" id="email" required ><br/>
-        </div>
-        <div class="margin2">
-            <label id="number-label">Age</label><br/>
-            <input type="number" min="18" max="65" placeholder="age" id="number" required ><br/>
-        </div>
-        <div class="margin3">
-            <label id="dropdown-label"> Type</label><br/>
-            <select id="dropdown">
-              <option value="Movies">Movie</option>
-              <option value="Series">Series</option>
-            </select><br/>
-            <div class="margin4">
+      </div>
+      <div class="margin1">
+          <label id="email-label">Email</label><br/>
+          <input type="email" placeholder="enter Email" id="email" required ><br/>
+      </div>
+      <div class="margin2">
+          <label id="number-label">Age</label><br/>
+          <input type="number" min="18" max="65" placeholder="age" id="number" required ><br/>
+      </div>
+      <div class="margin3">
+          <label id="dropdown-label"> Type</label><br/>
+          <select id="dropdown">
+            <option value="Movies">Movie</option>
+            <option value="Series">Series</option>
+          </select><br/>
+      </div>
+      <div class="margin4">
           <form-group>
           <label id="select-label">Movie Genre</label><br/>
           <label>
@@ -39,17 +42,18 @@
           <label>
           <input type="checkbox" id="thi-check" name="c3" checked>Romance<br/>
           </label>
-          <div class="margin5">
+      </div>
+          </form-group>
+      <div class="margin5">
           <label id="feed-label">Feedbacks (if any)</label><br/>
       </div>
       <div class="margin-section1">
           <textarea  class="text" placeholder="your comments"> 
           </textarea><br/>
       </div>
-      </div>
-        </div>
-      </div>
-      </form>   
+          <input type="submit" id="proceed">
+  </form>
     </div>
+</div>
 </body>
 </html>
