@@ -68,3 +68,20 @@ span {
   .margin-section,.margin-section1{
     margin-top:1em;
   }
+
+  .text{
+    margin-left:5em;
+    height:6em;
+    width:25em;
+  }
+  #proceed{
+    margin-left:6em;
+    margin-top:1em;
+    height:45px;
+    width:10em;
+    border-radius:50px;
+    border:none;
+    background-color:#4873EA;
+    color:#fff;a
+    cursor:pointer;
+  }
