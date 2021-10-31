@@ -34,6 +34,7 @@ span {
     font-size: 23px;
     font-family: 'open Sans';
 }
+
 #info-form{
     width:31em;
     height:860px;
@@ -48,4 +49,22 @@ span {
     width:26em;
     border:none;
     padding: 10px ;
+  }
+  #name-label, #email-label,#number-label , #dropdown-label , #select-label{
+    margin-left:4em;
+  }
+  .margin,.margin1,.margin2,.margin3,.margin4,.margin5{
+    margin-top:30px;
+  
+  }
+  #first-check , #second-check , #thi-check , #feed-label{
+    margin-left:5em;
+  }
+  
+  #dropdown{
+    margin-left:5em;
+    
+  }
+  .margin-section,.margin-section1{
+    margin-top:1em;
   }
