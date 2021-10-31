@@ -85,3 +85,7 @@ span {
     color:#fff;a
     cursor:pointer;
   }
+  #proceed:hover{
+    background:#fff;
+    color:#3B38F3;
+  }
