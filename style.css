@@ -13,3 +13,24 @@ body {
     padding: 0;
     background-color: rgb(0, 0, 0, 0.5);
 }
+
+.form-inside {
+    padding-top: 3em;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'helvetica';
+}
+
+span {
+    color: lightblue;
+}
+
+#discription {
+    color: #FAF0A7;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'open Sans';
+}
